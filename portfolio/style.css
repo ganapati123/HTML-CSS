@@ -1,0 +1,62 @@
+/*google font */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lobster&family=Poppins&display=swap');
+body{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: verdana;
+}
+.navbar
+{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: #a3a7ad; 
+  padding: 12px;
+  
+}
+.navbar-dark .navbar-nav .nav-link
+{
+  color: #ffffff;
+  padding-left: 30px;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #76a2f5;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.heading-content 
+{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  max-width: 100%;
+}
+.heading-content h5
+{
+  font-size: 40px;
+  font-weight: 400;
+  color:rgb(20, 19, 19);
+  ;
+
+}
+.heading-content h1
+{
+  font-size: 60px;
+  font-weight: bolder;
+  color: rgb(20, 19, 19);
+
+}
+.heading-content p
+{
+  font-size: 10px;
+  font-weight: bolder;
+  color: rgb(20, 19, 19);
+
+}

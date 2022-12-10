@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+	  <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <fieldset>
+        <label>Enter Your First Name: <input type="text" name="first-name" required /></label>
+        <label>Enter Your Last Name: <input type="text" name="last-name" required /></label>
+        <label>Enter Your Email: <input type="email" name="email" required /></label>
+        <label>Create New Password: <input type="password" name="password" required /></label>
+      </fieldset>
+
+      <fieldset>
+        <label>Gender:  </label>
+          <input type="radio" name="gender" />Male
+          <input type="radio" name="gender" />Female
+          <input type="radio" name="gender" />other
+       
+      </fieldset>
+    
+      <fieldset>
+        <label>Upload a profile picture: <input type="file" name="file" /></label>
+        
+        <label>Date Of Birth: <input type="date" name="dob"  /> </label>
+       
+        <label>Choose your course:
+          <select>
+            <option>--------choose your course ------- </option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JAVASCRIPT</option>
+            <option>REACT.JS</option>
+            <option>NODE.JS</option>
+            <option>JAVA</option>
+            <option>PYTHON</option>
+          </select>
+        </label>
+        <label>Address:
+          <textarea name="address" rows="5" cols="30" style="resize:none;" placeholder="Enter your Address..."></textarea>
+			  </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

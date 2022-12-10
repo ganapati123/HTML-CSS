@@ -1,0 +1,59 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+}
+
+nav
+{
+    background: #0b162b;
+    width: 100%;
+    height: 60px;
+}
+nav ul
+{
+    list-style: none;
+    
+}
+nav ul li
+{
+    list-style: none;
+    display: inline;
+    float: left;
+    width: 11.1%;
+    line-height: 60px;
+    text-align: center;
+
+}
+nav ul a
+{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+nav ul a:hover
+{
+    background: #c5bcbc;
+    transition: all 1s ease-in;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+    nav
+    {
+     height: auto; /*logic */
+    }
+    nav ul li
+   {
+    display: block; /*one by one these are come in mobile display*/
+    float: none;      /*logic*/
+    width: 100%;      /*logic*/
+    border: solid 1px #ffffff;
+   }
+   nav ul a
+  {
+  
+  font-size: 14px;
+  }
+}
